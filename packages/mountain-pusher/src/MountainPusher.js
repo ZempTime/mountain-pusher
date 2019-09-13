@@ -29,7 +29,7 @@ export class MountainPusher extends LitElement {
         <span>Short-Term Client Things</span>
         <span>↓</span>
         <div class="container">${start}<span class="dashline">${this.dashedLine}</span><span style="transform: translateX(calc(5px * ${this.distance}))">${guyPushing}${mountain}<span></div>
-        <button @click="${this.handleClick}" class="button">Add before microservices!</button>
+        <button @click="${this.handleClick}" class="button">Let's add this before microservices...</button>
       </span>
       <div></div>
     </div>
